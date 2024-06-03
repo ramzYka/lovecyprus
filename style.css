@@ -87,10 +87,6 @@ legend {
 	display: block;
 }
 
-body {
-
-}
-
 .lato-thin {
     font-family: "Lato", sans-serif;
     font-weight: 100;
@@ -214,6 +210,18 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    position: relative;
+}
+
+.rhombo {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.rombiki {
+    width: 90%;
 }
 
 /* navigation */
@@ -248,9 +256,104 @@ body {
 }
 
 .nav-el:hover {
-    color: #c56127;
-    background-color: rgb(190, 188, 188);
+    color: white;
+    background-color: #F87932;
 }
+
+/* title */
+
+.title {
+    margin-top: 30px;
+}
+
+.block-traveling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.traveling-left {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.traveling-title {
+    font-family: "Merriweather", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #39BFA7;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button {
+    margin-top: 80px;
+}
+
+.traveling-btn {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.2em;
+    background-color: #F87932;
+    padding: 16px 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.traveling-btn:hover {
+    background-color: white;
+    color: #F87932;
+    font-weight: 700;
+}
+
+.orange-span {
+    color: #F87932;
+}
+
+.main-rhombo {
+    position: relative
+}
+
+.romb1 {
+    position: absolute;
+    top: 65%;
+    left: 61%;
+    transform: translate(-50%, -44%);
+}
+
+.romb2 {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.romb3 {
+    position: absolute;
+    top: 70%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+.romb4 {
+    position: absolute;
+    top: 23%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+.romb5 {
+    position: absolute;
+    top: 42%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 
 
